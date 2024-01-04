@@ -23,6 +23,16 @@ const FeatureList = [
         با محصول کانتینر ابری ابریمنت، اپلیکیشن‌های مورد نیاز خود را ایجاد و آن‌ها را به آسانی مدیریت کنید.
       </>
     ),
+  },
+  {
+    title: 'دیتابیس ابری',
+    Svg: require('@site/static/img/database.svg').default,
+    link: "docs/database-index",
+    description: (
+      <>
+        با محصول دیتابیس ابری دیتابیس خود را با منابع مورد نظرتان تنها با چند کلیک ایجاد کنید.
+      </>
+    ),
   }
   // {
   //   title: 'سرویس کاتالوگ', 
@@ -37,7 +47,7 @@ const FeatureList = [
 
 function Feature({link, Svg, title, description }) {
   return (
-    <div className={clsx('col col--6')}>
+    <div className={clsx('col col--4')}>
       <Link
         style={{textDecoration: "none"}}
         to={link}>
