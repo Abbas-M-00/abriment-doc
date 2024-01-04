@@ -7,7 +7,7 @@ const FeatureList = [
   {
     title: 'سرور ابری',
     Svg: require('@site/static/img/server.svg').default,
-    link: "docs/server-index",
+    link: "docs/iaas",
     description: (
       <>
         به کمک محصول سرور ابری ابریمنت ماشین مجازی خود را با منابع مورد نظرتان تنها با چند کلیک ایجاد کنید.
@@ -17,7 +17,7 @@ const FeatureList = [
   {
     title: 'کانتینر ابری',
     Svg: require('@site/static/img/container.svg').default,
-    link: "docs/container-index",
+    link: "docs/paas",
     description: (
       <>
         با محصول کانتینر ابری ابریمنت، اپلیکیشن‌های مورد نیاز خود را ایجاد و آن‌ها را به آسانی مدیریت کنید.
@@ -27,7 +27,7 @@ const FeatureList = [
   {
     title: 'دیتابیس ابری',
     Svg: require('@site/static/img/database.svg').default,
-    link: "docs/database-index",
+    link: "docs/dbaas",
     description: (
       <>
         با محصول دیتابیس ابری دیتابیس خود را با منابع مورد نظرتان تنها با چند کلیک ایجاد کنید.
