@@ -12,9 +12,11 @@ sidebar_position: 4
 با انتخاب دیتابیس از صفحه اول وارد بخش DBaaS خواهید شد و می‌توانید برای نصب دیتابیس مورنظر خود اقدام نمایید.
 ویا از قسمت"دیتابیس های من"از بخش ساخت دیتابیس اقدام به ساخت دیتابیس جدید نمایید.
 
+## قابلیت‌ها
+
 ![dbaas_my_databases](/img/database/dbaas_my_databases.png)
 
-از بخش عملیات می‌توانید(خاموش/روشن دیتابیس ،اتصال به کلاینت،حذف)را انتخاب نمایید.
+از بخش عملیات می‌توانید (خاموش/روشن دیتابیس،اتصال به کلاینت، حذف) را انتخاب نمایید.
 
 ![dbaas_my_databases_actions](/img/database/dbaas_my_databases_actions.png)
 
@@ -37,10 +39,11 @@ sidebar_position: 4
 
 ![dbaas_database_user_management_create_user](/img/database/dbaas_database_user_management_create_user.png)
 
-همچنین اطلاعات کاربر مانند سطح دسترسی ،رمز عبور و یا حذف کاربر را انتخاب نمایید.
+همچنین اطلاعات کاربر مانند سطح دسترسی، رمز عبور و یا حذف کاربر را انتخاب نمایید.
 
 ![dbaas_database_user_management_list](/img/database/dbaas_database_user_management_list.png)
 
+## ساخت انواع دیتابیس
 
 ### ساخت دیتابیس Redis
 
@@ -56,7 +59,12 @@ sidebar_position: 4
 
 ![dbaas_create_database_info_redis](/img/database/dbaas_create_database_info_redis.png)
 
-پس از تایید ساخت دیتابیس جدید ،به مجموعه شما اضافه خواهد شد.
+:::info نکته
+
+هنگام وارد کردن مشخصات به نکات نوشته شده پایین صفحه توجه فرمایید.
+:::
+
+پس از تایید ساخت دیتابیس جدید، به مجموعه شما اضافه خواهد شد.
 
 
 
@@ -73,6 +81,11 @@ sidebar_position: 4
 اطلاعات مورد نیاز را تکمیل کنید.
 
 ![dbaas_create_database_info_others](/img/database/dbaas_create_database_info_others.png)
+
+:::info نکته
+
+هنگام وارد کردن مشخصات به نکات نوشته شده پایین صفحه توجه فرمایید.
+:::
 
 پس از تایید ساخت دیتابیس جدید، به مجموعه شما اضافه خواهد شد.
 
@@ -92,7 +105,12 @@ sidebar_position: 4
 
 ![dbaas_create_database_info_others](/img/database/dbaas_create_database_info_others.png)
 
-پس از تایید ساخت دیتابیس جدید ،به مجموعه شما اضافه خواهد شد.
+:::info نکته
+
+هنگام وارد کردن مشخصات به نکات نوشته شده پایین صفحه توجه فرمایید.
+:::
+
+پس از تایید ساخت دیتابیس جدید، به مجموعه شما اضافه خواهد شد.
 
 :::warning نکته
 
@@ -114,4 +132,9 @@ sidebar_position: 4
 
 ![dbaas_create_database_info_others](/img/database/dbaas_create_database_info_others.png)
 
-پس ازتایید ساخت دیتابیس جدید ،به مجموعه شما اضافه خواهد شد.
+:::info نکته
+
+هنگام وارد کردن مشخصات به نکات نوشته شده پایین صفحه توجه فرمایید.
+:::
+
+پس ازتایید ساخت دیتابیس جدید، به مجموعه شما اضافه خواهد شد.
