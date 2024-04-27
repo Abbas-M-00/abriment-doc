@@ -1,9 +1,16 @@
 import clsx from 'clsx';
-import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
-const FeatureList = [
+type FeatureItem = {
+  title: string;
+  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  link: string;
+  description: JSX.Element;
+};
+
+const FeatureList: FeatureItem[] = [
   {
     title: 'سرور ابری',
     Svg: require('@site/static/img/server.svg').default,
@@ -45,25 +52,30 @@ const FeatureList = [
   // }
 ];
 
-function Feature({link, Svg, title, description }) {
+function Feature({ title, Svg, link, description }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <Link
-        style={{textDecoration: "none"}}
+        className={clsx('card')}
+        style={{ textDecoration: "none" }}
         to={link}>
-        <div className="text--center">
-          <Svg className={styles.featureSvg} role="img" />
+        <div className={clsx('card-body')}>
+          <div className="text--center">
+            <Svg className={styles.featureSvg} role="img" />
+          </div>
         </div>
-        <div className="text--center padding-horiz--md">
-          <Heading as="h3" style={{color: "var(--ifm-color-primary)"}}>{title}</Heading>
-          <p style={{color: "var(--ifm-color-content)"}}>{description}</p>
+        <div className={clsx('card-footer')}>
+          <div className="text--center padding-horiz--md">
+            <Heading as="h3" style={{ color: "var(--ifm-color-primary)" }}>{title}</Heading>
+            <p style={{ color: "var(--ifm-color-content)" }}>{description}</p>
+          </div>
         </div>
       </Link>
-    </div >
+    </div>
   );
 }
 
-export default function HomepageFeatures() {
+export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
       <div className="container">

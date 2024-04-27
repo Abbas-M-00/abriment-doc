@@ -4,6 +4,15 @@
  * work well for content-centric websites.
  */
 
+.card {
+  transition: 0.05s ease-in;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  transform: scale(1.02);
+}
+
 @font-face {
   font-family: "DanaFaNum Black";
   src: url('/static/font/DanaFaNum-Black.woff') format('woff');
@@ -69,7 +78,6 @@
   src: url('/static/font/DanaFaNum-UltraLight.woff') format('woff');
 }
 
-
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #369cb8;
@@ -82,8 +90,8 @@
   --ifm-code-font-size: 95%;
   --ifm-heading-font-family: "DanaFaNum Bold";
   --ifm-heading-font-family: "DanaFaNum Medium";
+  --ifm-font-family-base: "DanaFaNum Regular";
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-font-family-base: "DanaFaNum Regular"
 }
 
 img {
