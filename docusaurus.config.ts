@@ -84,6 +84,7 @@ const config: Config = {
         routeBasePath: 'release-note',
         path: './release-note',
         showReadingTime: false,
+        blogTitle: 'آخرین تغییرات',
         blogSidebarTitle: 'آخرین تغییرات',
       },
     ],
