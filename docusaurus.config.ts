@@ -57,6 +57,7 @@ const config: Config = {
           // editUrl:
           //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
+
         blog: {
           showReadingTime: false,
           blogSidebarTitle: 'آخرین پست‌ها',
@@ -72,6 +73,19 @@ const config: Config = {
           customCss: './src/css/custom.css',
         },
       } satisfies Preset.Options,
+    ],
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'release-note',
+        routeBasePath: 'release-note',
+        path: './release-note',
+        showReadingTime: false,
+        blogSidebarTitle: 'آخرین تغییرات',
+      },
     ],
   ],
 
@@ -92,6 +106,7 @@ const config: Config = {
           label: 'مستندات',
         },
         {to: '/blog', label: 'بلاگ', position: 'left'},
+        {to: '/release-note', label: 'آخرین تغییرات', position: 'left'},
         // {
         //   href: 'https://github.com/facebook/docusaurus',
         //   label: 'GitHub',
@@ -135,10 +150,7 @@ const config: Config = {
               label: 'بلاگ',
               to: '/blog',
             },
-            // {
-            //   label: 'GitHub',
-            //   href: 'https://github.com/facebook/docusaurus',
-            // },
+
           ],
         },
       ],
