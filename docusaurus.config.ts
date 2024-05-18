@@ -59,7 +59,7 @@ const config: Config = {
         },
 
         blog: {
-          showReadingTime: false,
+          showReadingTime: true,
           blogSidebarTitle: 'آخرین پست‌ها',
           blogTitle: 'بلاگ',
           blogDescription: 'بلاگ ابریمنت',
@@ -119,11 +119,19 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'مستندات',
+          title: 'راهنمای داشبورد',
           items: [
             {
-              label: 'راهنمای داشبورد',
+              label: 'مستندات',
               to: '/docs/intro',
+            },
+            {
+              label: 'بلاگ',
+              to: '/blog',
+            },
+            {
+              label: 'آخرین تغییرات',
+              to: '/release-note',
             },
           ],
         },
@@ -134,28 +142,39 @@ const config: Config = {
               label: 'لینکدین',
               href: 'https://linkedin.com/company/abriment',
             },
-            // {
-            //   label: 'Discord',
-            //   href: 'https://discordapp.com/invite/docusaurus',
-            // },
-            // {
-            //   label: 'Twitter',
-            //   href: 'https://twitter.com/docusaurus',
-            // },
+            {
+              label: 'تلگرام',
+              href: 'https://t.me/abriment',
+            },
+            {
+              label: 'سروش پلاس',
+              href: 'https://splus.ir/joingroup/AI1-NFJFwFgTkkkKTcYp6w',
+            },
           ],
         },
         {
           title: 'بیشتر',
           items: [
             {
-              label: 'بلاگ',
-              to: '/blog',
+              label: 'ساخت ماشین ابری',
+              to: 'https://abriment.com/dashboard/iaas/servers/launch',
             },
-
+            {
+              label: 'ساخت اپلیکیشن',
+              to: 'https://abriment.com/dashboard/paas/applications/create',
+            },
+            {
+              label: 'ساخت دیتابیس ابری',
+              to: 'https://abriment.com/dashboard/dbaas/database/create',
+            },
+            {
+              label: 'پشتیبانی',
+              to: 'https://abriment.com/dashboard/support',
+            },
           ],
         },
       ],
-      // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      // copyright: `ساخته شده در ابریمنت با ❤ به کمک Docusaurus`,
     },
     prism: {
       theme: prismThemes.github,
