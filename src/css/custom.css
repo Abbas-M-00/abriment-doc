@@ -94,7 +94,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-p {
+div.markdown > p {
   text-align: justify;
   text-justify: inter-word;
 }
