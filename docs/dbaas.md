@@ -146,7 +146,7 @@ sidebar_position: 4
 
 ![mongo-select](/img/database/mongo-select.png)
 
-بسته موردنظر شامل(منابع دیتابیس و فضای ذخیره سازی)را انتخاب نمایید.
+بسته موردنظر شامل (منابع دیتابیس و فضای ذخیره سازی) را انتخاب نمایید.
 
 ![mongo-resource](/img/database/mongo-resource.png)
 
