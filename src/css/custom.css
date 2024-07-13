@@ -99,6 +99,11 @@ div.markdown > p {
   text-justify: inter-word;
 }
 
+div.markdown > ol, ul {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 img {
   width: 100%;
 }
