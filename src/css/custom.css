@@ -104,6 +104,10 @@ div.markdown > ol, ul {
   text-justify: inter-word;
 }
 
+div.thin-scrollbar > ul > li > ul {
+  text-align: start !important;
+}
+
 img {
   width: 100%;
 }
