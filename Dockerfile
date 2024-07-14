@@ -1,5 +1,5 @@
 # Use an official Node runtime as a parent image
-FROM node:14-alpine
+FROM node:lts-alpine3.19
 
 # Set the working directory in the container
 WORKDIR /app
@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Build the Docusaurus site
-RUN npm run build
+RUN npm start
 
 # Expose port 3000 (adjust if your Docusaurus project uses a different port)
 EXPOSE 3000
