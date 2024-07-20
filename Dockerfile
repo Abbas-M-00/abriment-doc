@@ -1,6 +1,7 @@
 FROM node:18-bullseye
 
-RUN apt install --no-cache autoconf automake g++ make
+RUN apt update && \
+    apt install --no-cache autoconf automake g++ make
 
 WORKDIR /app
 
