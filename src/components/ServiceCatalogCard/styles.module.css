@@ -1,0 +1,49 @@
+.appSvg {
+  height: 100px;
+  width: 100px;
+}
+
+.responsiveGrid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(5, 1fr); /* Default to 5 columns */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+  .responsiveGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .responsiveGrid {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .responsiveGrid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on small tablets */
+  }
+}
+
+@media (max-width: 576px) {
+  .responsiveGrid {
+    grid-template-columns: repeat(1, 1fr); /* 1 column on mobile */
+  }
+}
+
+.gridItem {
+  text-align: center;
+}
+
+.gridItem img {
+  max-width: 100px !important;
+  height: auto;
+}
+
+.gridItem p {
+  margin-top: 10px;
+  font-size: 1rem;
+}

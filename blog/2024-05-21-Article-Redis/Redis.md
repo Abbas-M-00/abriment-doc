@@ -4,7 +4,7 @@ title: معرفی Redis
 tags: [Redis,DataBase]
 ---
  ردیس یک دیتابیس NoSqlاست که برای ذخیره اطلاعات مورد استفاده قرار می‌گیرد. دیتابیس ردیس نوعی ساختمان داده است که داده‌ها را به جای دیسک در حافظه RAM نگهداری می‌کند.
-![New Release Banner](./redis.png)
+![New Release Banner](./Redis.png)
 <!--truncate-->
 ### ردیس چیست؟
 “Remote Dectionary Server”, Redis دیتابیس اپن سورس و به صورت key-value است.
