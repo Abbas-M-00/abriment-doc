@@ -1,49 +1,58 @@
-.appSvg {
-  height: 100px;
-  width: 100px;
-}
-
 .responsiveGrid {
   display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(5, 1fr); /* Default to 5 columns */
+  gap: 0.5rem;
+  grid-template-columns: repeat(6, 1fr); /* Default to 5 columns */
 }
 
 /* Media queries for responsiveness */
 @media (max-width: 1200px) {
   .responsiveGrid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
 @media (max-width: 992px) {
   .responsiveGrid {
-    grid-template-columns: repeat(3, 1fr); /* 3 columns on tablets */
+    grid-template-columns: repeat(4, 1fr); /* 3 columns on tablets */
   }
 }
 
 @media (max-width: 768px) {
   .responsiveGrid {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns on small tablets */
+    grid-template-columns: repeat(3, 1fr); /* 2 columns on small tablets */
   }
 }
 
 @media (max-width: 576px) {
   .responsiveGrid {
-    grid-template-columns: repeat(1, 1fr); /* 1 column on mobile */
+    grid-template-columns: repeat(2, 1fr); /* 1 column on mobile */
   }
 }
 
 .gridItem {
   text-align: center;
+  border: solid 1px #EEE;
+  border-radius: 0.5rem;
 }
 
-.gridItem img {
-  max-width: 100px !important;
-  height: auto;
+.gridItem:hover {
+  border: solid 1px #DDD;
+  background-color: var(--ifm-color-primary-lightest-hover);
 }
 
-.gridItem p {
-  margin-top: 10px;
+.appLogo {
+  max-width: 6.25rem;
+  padding: 0.25rem;
+  margin: 0.5rem;
+}
+
+.title {
   font-size: 1rem;
+  margin: 2px !important;
+  font-weight: 600;
+}
+
+.type {
+  font-size: 0.9rem;
+  color: #999;
 }
