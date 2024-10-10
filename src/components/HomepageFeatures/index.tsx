@@ -40,6 +40,16 @@ const FeatureList: FeatureItem[] = [
         با محصول دیتابیس ابری دیتابیس خود را با منابع مورد نظرتان تنها با چند کلیک ایجاد کنید.
       </>
     ),
+  },
+  {
+    title: 'فضای ابری',
+    Svg: require('@site/static/img/storage.svg').default,
+    link: "docs/dbaas",
+    description: (
+      <>
+        با محصول فضای ابری فایل‌های خود را بر بستر ابر ذخیره کنید.
+      </>
+    ),
   }
   // {
   //   title: 'سرویس کاتالوگ', 
@@ -54,12 +64,12 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({ title, Svg, link, description }: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col')}>
       <Link
         className={clsx('card')}
         style={{ textDecoration: "none" }}
         to={link}>
-        <div className={clsx('card-body')}>
+        <div className={clsx('card-body mb-2')}>
           <div className="text--center">
             <Svg className={styles.featureSvg} role="img" />
           </div>
