@@ -1,5 +1,5 @@
 ---
-slug: /object storage
+slug: /object-storage
 sidebar_position: 6
 ---
 # راهنمای بخش فضای ابری

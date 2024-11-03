@@ -1,9 +1,9 @@
 ---
-slug: dbaas/general
+slug: /dbaas/general
 sidebar_position: 1
 ---
 
-# راهنمای بخش دیتابیس ابری 
+# قابلیت‌های عمومی دیتابیس ابری 
 
 ## صفحه اصلی
 

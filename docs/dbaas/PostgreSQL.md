@@ -1,6 +1,6 @@
 ---
-slug: dbaas/postgresql
-sidebar_position: 5
+slug: /dbaas/postgresql
+sidebar_position: 4
 ---
 ### ساخت دیتابیس PostgreSQL
 

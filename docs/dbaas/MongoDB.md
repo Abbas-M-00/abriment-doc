@@ -1,6 +1,6 @@
 ---
-slug: dbaas/mongodb
-sidebar_position: 3
+slug: /dbaas/mongodb
+sidebar_position: 6
 ---
 
 

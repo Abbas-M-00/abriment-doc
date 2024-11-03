@@ -44,10 +44,10 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'فضای ابری',
     Svg: require('@site/static/img/storage.svg').default,
-    link: "docs/dbaas",
+    link: "docs/object-storage",
     description: (
       <>
-        با محصول فضای ابری فایل‌های خود را بر بستر ابر ذخیره کنید.
+        با فضای ابری، داده‌های خود را به راحتی ذخیره کنید. این فضا امکان دسترسی همزمان به فایل‌ها را فراهم می‌کند.
       </>
     ),
   }

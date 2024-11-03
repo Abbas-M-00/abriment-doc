@@ -1,6 +1,6 @@
 ---
-slug: dbaas/mysql
-sidebar_position: 4
+slug: /dbaas/mysql
+sidebar_position: 2
 ---
 
 ### ساخت دیتابیس MySQL

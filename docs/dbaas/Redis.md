@@ -1,6 +1,6 @@
 ---
-slug: dbaas/redis 
-sidebar_position: 6
+slug: /dbaas/redis 
+sidebar_position: 5
 ---
 ### ساخت دیتابیس Redis
 

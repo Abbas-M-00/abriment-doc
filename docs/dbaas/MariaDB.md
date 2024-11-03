@@ -1,6 +1,6 @@
 ---
-slug: dbaas/mariadb
-sidebar_position: 2
+slug: /dbaas/mariadb
+sidebar_position: 3
 ---
 
 ### ساخت دیتابیس MariaDB
