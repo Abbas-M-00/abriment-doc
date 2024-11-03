@@ -44,7 +44,7 @@ const FeatureList: DatabaseItem[] = [
   {
     title: 'MongoDB',
     type: 'NoSQL Database',
-    Svg: require('@site/static/img/service_catalog_logo/grafana_logo.svg').default,
+    Svg: require('@site/static/img/service_catalog_logo/mongodb_logo.svg').default,
     link: "docs/dbaas"
   },
 
