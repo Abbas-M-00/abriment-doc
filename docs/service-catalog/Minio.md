@@ -1,4 +1,4 @@
 ---
 slug: /servicecatalog/Minio
-sidebar_position: 26
+sidebar_position: 27
 ---

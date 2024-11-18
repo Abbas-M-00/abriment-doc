@@ -1,5 +1,5 @@
 ---
-slug: /servicecatalog/KafkaUI
+slug: /servicecatalog/Hazelcast
 sidebar_position: 24
 ---
 
