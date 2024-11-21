@@ -20,8 +20,21 @@ sidebar_position: 24
 ![servicecatalog](/img/servicecatalog/servicecatalog0.png)
 
 اطلاعات موردنیاز و منابع موردنیاز برای ساخت سرویس کاتالوگ مورد نظر را تکمیل نمایید.
- استفاده نمایید.
- 
+
+<table>
+    <thead>
+        <tr>
+            <td>ورودی</td>
+            <td>توضیحات</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>نام اپلیکیشن</td>
+            <td>نام فقط می‌تواند شامل حروف کوچک، اعداد یا (-) باشد و نمی‌تواند با کاراکتر (-) شروع یا پایان یابد.</td>
+        </tr>
+    </tbody>
+</table> 
 
 ![servicecatalog](/img/servicecatalog/servicecatalog45.png)
 

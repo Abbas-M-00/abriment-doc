@@ -20,6 +20,20 @@ Zookeeper به‌عنوان سرویسی برای هماهنگی و مدیریت
 ![servicecatalog](/img/servicecatalog/servicecatalog000.png)
 
 اطلاعات موردنیاز و منابع موردنیاز برای ساخت سرویس کاتالوگ مورد نظر را تکمیل نمایید.
+<table>
+    <thead>
+        <tr>
+            <td>ورودی</td>
+            <td>توضیحات</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>نام اپلیکیشن</td>
+            <td>نام فقط می‌تواند شامل حروف کوچک، اعداد یا (-) باشد و نمی‌تواند با کاراکتر (-) شروع یا پایان یابد.</td>
+        </tr>
+    </tbody>
+</table>
 
 ![servicecatalog](/img/servicecatalog/servicecatalog23.png)
 
