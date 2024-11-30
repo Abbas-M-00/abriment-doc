@@ -181,6 +181,10 @@ const config: Config = {
       ],
       // copyright: `ساخته شده در ابریمنت با ❤ به کمک Docusaurus`,
     },
+    tableOfContents: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 5,
+    },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
