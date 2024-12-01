@@ -92,6 +92,7 @@
   --ifm-heading-font-family: "DanaFaNum Bold";
   --ifm-heading-font-family: "DanaFaNum Medium";
   --ifm-font-family-base: "DanaFaNum Regular";
+  --ifm-table-stripe-background: #eef5ff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
@@ -111,6 +112,14 @@ div.thin-scrollbar > ul > li > ul {
 
 img {
   width: 100%;
+}
+
+thead, td:nth-child(1) {
+  font-weight: 700;
+}
+
+thead {
+  text-align: center;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
