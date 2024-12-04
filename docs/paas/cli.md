@@ -1,5 +1,5 @@
 ---
-slug: /paas
+slug: /paas/cli
 sidebar_position: 5
 ---
 

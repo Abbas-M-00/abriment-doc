@@ -1,5 +1,5 @@
 ---
-slug: /paas
+slug: /paas/manifest
 sidebar_position: 4
 ---
 
