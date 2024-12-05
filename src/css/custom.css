@@ -122,6 +122,17 @@ thead {
   text-align: center;
 }
 
+.menu__list-item {
+  border-left: 1px solid #CCC !important;
+  margin-top: 0 !important;
+  padding: 0.1rem 0;
+}
+
+.menu__link--active {
+  border-left: 0.25rem solid #2f80ed !important;
+  border-radius: 0 !important;
+}
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #74aaf3;
