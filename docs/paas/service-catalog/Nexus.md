@@ -20,6 +20,8 @@ sidebar_position: 22
 ![servicecatalog](/img/servicecatalog/servicecatalog000.png)
 
 اطلاعات موردنیاز و منابع موردنیاز برای ساخت سرویس کاتالوگ مورد نظر را تکمیل نمایید.
+
+### راهنمای اینپوت‌های مورد نیاز
  
 <table>
     <thead>
