@@ -126,6 +126,7 @@ thead {
   border-left: 1px solid #CCC !important;
   margin-top: 0 !important;
   padding: 0.1rem 0;
+  margin-left: 0.25rem;
 }
 
 .menu__link--active {
