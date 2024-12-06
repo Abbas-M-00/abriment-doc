@@ -106,7 +106,7 @@ div.markdown > ol, ul {
   text-justify: inter-word;
 }
 
-div.thin-scrollbar > ul > li > ul {
+div.thin-scrollbar > ul > li > ul, .table-of-contents__link {
   text-align: start !important;
 }
 
