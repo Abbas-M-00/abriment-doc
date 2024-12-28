@@ -106,7 +106,7 @@ div.markdown > ol, ul {
   text-justify: inter-word;
 }
 
-div.thin-scrollbar > ul > li > ul {
+div.thin-scrollbar > ul > li > ul, .table-of-contents__link {
   text-align: start !important;
 }
 
@@ -120,6 +120,18 @@ thead, td:nth-child(1) {
 
 thead {
   text-align: center;
+}
+
+.menu__list-item {
+  border-left: 1px solid #CCC !important;
+  margin-top: 0 !important;
+  padding: 0.1rem 0;
+  margin-left: 0.25rem;
+}
+
+.menu__link--active {
+  border-left: 0.25rem solid #2f80ed !important;
+  border-radius: 0 !important;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */

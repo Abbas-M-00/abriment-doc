@@ -62,11 +62,11 @@ const FeatureList: ServiceCatalogItem[] = [
     type: 'Data Management',
     Svg: require('@site/static/img/service_catalog_logo/cmak_logo.svg').default,
   },
-  {
-    title: 'HDFS',
-    type: 'Data Management',
-    Svg: require('@site/static/img/service_catalog_logo/hdfs_logo.svg').default,
-  },
+  // {
+  //   title: 'HDFS',
+  //   type: 'Data Management',
+  //   Svg: require('@site/static/img/service_catalog_logo/hdfs_logo.svg').default,
+  // },
   {
     title: 'Code Server',
     type: 'Coding',
@@ -127,11 +127,11 @@ const FeatureList: ServiceCatalogItem[] = [
     type: 'Data Management',
     Svg: require('@site/static/img/service_catalog_logo/nexus_logo.svg').default,
   },
-  {
-    title: 'Kafka UI',
-    type: 'Data Management',
-    Svg: require('@site/static/img/service_catalog_logo/kafkaui_logo.svg').default,
-  },
+  // {
+  //   title: 'Kafka UI',
+  //   type: 'Data Management',
+  //   Svg: require('@site/static/img/service_catalog_logo/kafkaui_logo.svg').default,
+  // },
   {
     title: 'Hazelcast',
     type: 'Database',
@@ -168,7 +168,7 @@ const FeatureList: ServiceCatalogItem[] = [
 function ServiceCatalogCard({ title, type, Svg }: ServiceCatalogItem) {
   return (
     <Link
-      to={"servicecatalog/" + title}
+      to={"/docs/paas/servicecatalog/" + title}
       style={{ textDecoration: "none" }}>
       <div className={styles.gridItem}>
         <Svg className={styles.appLogo} />
