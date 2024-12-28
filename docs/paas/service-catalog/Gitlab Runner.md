@@ -1,5 +1,5 @@
 ---
-slug: /servicecatalog/GitlabRunner
+slug: /paas/servicecatalog/GitlabRunner
 sidebar_position: 30
 ---
 ## معرفی GitlabRunner

@@ -24,7 +24,7 @@ const FeatureList: PaaSItem[] = [
     title: 'سرویس کاتالوگ',
     description: 'یکی از نرم‌افزارهای آماده به استفاده موجود در کاتالوگ را انتخاب کرده و در چند ثانیه آن را قابل استفاده کنید',
     Svg: require('@site/static/img/Service Catalog.svg').default,
-    link: 'paas/service-catalog'
+    link: 'paas/servicecatalog'
   },
   {
     title: ' گیت  (CI/CD) ',

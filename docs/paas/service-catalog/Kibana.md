@@ -1,5 +1,5 @@
 ---
-slug: /servicecatalog/Kibana
+slug: /paas/servicecatalog/Kibana
 sidebar_position: 21
 ---
 

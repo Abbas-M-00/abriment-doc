@@ -1,5 +1,5 @@
 ---
-slug: /servicecatalog/Nifi
+slug: /paas/servicecatalog/Nifi
 sidebar_position: 17
 ---
 

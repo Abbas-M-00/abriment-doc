@@ -1,5 +1,5 @@
 ---
-slug: /servicecatalog/CodesServer
+slug: /paas/servicecatalog/Code Server
 sidebar_position: 11
 ---
 

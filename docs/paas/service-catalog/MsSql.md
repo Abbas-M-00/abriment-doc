@@ -1,5 +1,5 @@
 ---
-slug: /servicecatalog/MsSQL
+slug: /paas/servicecatalog/MSSQL
 sidebar_position: 14
 ---
 ## ساخت MsSql

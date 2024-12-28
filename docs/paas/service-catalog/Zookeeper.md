@@ -1,5 +1,5 @@
 ---
-slug: /servicecatalog/Zookeeper
+slug: /paas/servicecatalog/Zookeeper
 sidebar_position: 12
 ---
 

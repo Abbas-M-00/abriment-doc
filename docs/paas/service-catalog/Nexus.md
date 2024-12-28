@@ -1,5 +1,5 @@
 ---
-slug: /servicecatalog/Nexus
+slug: /paas/servicecatalog/Nexus
 sidebar_position: 22
 ---
 

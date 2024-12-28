@@ -1,5 +1,5 @@
 ---
-slug: /servicecatalog/Elasticsearch
+slug: /paas/servicecatalog/Elasticsearch
 sidebar_position: 6
 ---
 

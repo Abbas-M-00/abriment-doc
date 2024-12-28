@@ -1,5 +1,5 @@
 ---
-slug: /servicecatalog/Cmak
+slug: /paas/servicecatalog/CMAK
 sidebar_position: 9
 ---
 

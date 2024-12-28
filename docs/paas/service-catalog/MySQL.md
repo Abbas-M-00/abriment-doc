@@ -1,5 +1,5 @@
 ---
-slug: /servicecatalog/MySQL
+slug: /paas/servicecatalog/MySQL
 sidebar_position: 1
 ---
 

@@ -1,5 +1,5 @@
 ---
-slug: /servicecatalog/MongoDB
+slug: /paas/servicecatalog/MongoDB
 sidebar_position: 7
 ---
 

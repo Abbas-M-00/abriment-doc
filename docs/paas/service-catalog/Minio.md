@@ -1,5 +1,5 @@
 ---
-slug: /servicecatalog/Minio
+slug: /paas/servicecatalog/MinIO
 sidebar_position: 27
 ---
 

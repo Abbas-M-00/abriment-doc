@@ -1,5 +1,5 @@
 ---
-slug: /servicecatalog/Trino
+slug: /paas/servicecatalog/Trino
 sidebar_position: 19
 ---
 

@@ -1,5 +1,5 @@
 ---
-slug: /servicecatalog/OmniDB
+slug: /paas/servicecatalog/OmniDB
 sidebar_position: 15
 ---
 ## معرفی OmniDB
