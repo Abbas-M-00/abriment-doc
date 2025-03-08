@@ -1,5 +1,5 @@
 ---
-slug: /paas/servicecatalog/PostgreSQL
+slug: /paas/servicecatalog/postgresql
 sidebar_position: 3
 ---
 

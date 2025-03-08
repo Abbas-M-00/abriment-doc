@@ -1,5 +1,5 @@
 ---
-slug: /paas/servicecatalog/Nginx
+slug: /paas/servicecatalog/nginx
 sidebar_position: 28
 ---
 

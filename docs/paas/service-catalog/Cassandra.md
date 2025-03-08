@@ -1,5 +1,5 @@
 ---
-slug: /paas/servicecatalog/Cassandra
+slug: /paas/servicecatalog/cassandra
 sidebar_position: 13
 ---
 

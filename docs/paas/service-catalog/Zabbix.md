@@ -1,5 +1,5 @@
 ---
-slug: /paas/servicecatalog/Zabbix
+slug: /paas/servicecatalog/zabbix
 sidebar_position: 7
 ---
 

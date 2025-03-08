@@ -1,5 +1,5 @@
 ---
-slug: /paas/servicecatalog/MariaDB
+slug: /paas/servicecatalog/mariadb
 sidebar_position: 2
 
 ---

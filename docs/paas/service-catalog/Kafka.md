@@ -1,5 +1,5 @@
 ---
-slug: /paas/servicecatalog/Kafka
+slug: /paas/servicecatalog/kafka
 sidebar_position: 8
 ---
 ## معرفی Kafka  
