@@ -1,5 +1,5 @@
 ---
-slug: /paas/servicecatalog/RabbitMQ
+slug: /paas/servicecatalog/rabbitmq
 sidebar_position: 20
 ---
 

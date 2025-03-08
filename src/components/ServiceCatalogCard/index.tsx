@@ -168,7 +168,7 @@ const FeatureList: ServiceCatalogItem[] = [
 function ServiceCatalogCard({ title, type, Svg }: ServiceCatalogItem) {
   return (
     <Link
-      to={"/docs/paas/servicecatalog/" + title}
+      to={"/docs/paas/servicecatalog/" + title.toLowerCase().replace(/\s+/g, '')}
       style={{ textDecoration: "none" }}>
       <div className={styles.gridItem}>
         <Svg className={styles.appLogo} />

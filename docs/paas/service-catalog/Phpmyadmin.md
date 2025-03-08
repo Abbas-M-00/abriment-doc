@@ -1,5 +1,5 @@
 ---
-slug: /paas/servicecatalog/phpMyAdmin
+slug: /paas/servicecatalog/phpmyadmin
 sidebar_position: 29
 ---
 

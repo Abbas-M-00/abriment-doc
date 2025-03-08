@@ -1,5 +1,5 @@
 ---
-slug: /paas/servicecatalog/Logforwarder
+slug: /paas/servicecatalog/logforwarder
 sidebar_position: 18
 ---
 

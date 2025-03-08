@@ -1,5 +1,5 @@
 ---
-slug: /paas/servicecatalog/Hdfs
+slug: /paas/servicecatalog/hdfs
 sidebar_position: 10
 ---
 

@@ -1,5 +1,5 @@
 ---
-slug: /paas/servicecatalog/Grafana
+slug: /paas/servicecatalog/grafana
 sidebar_position: 5
 ---
 ##  معرفی Grafana

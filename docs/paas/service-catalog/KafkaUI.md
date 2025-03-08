@@ -1,5 +1,5 @@
 ---
-slug: /paas/servicecatalog/KafkaUI
+slug: /paas/servicecatalog/kafkaui
 sidebar_position: 23
 ---
 

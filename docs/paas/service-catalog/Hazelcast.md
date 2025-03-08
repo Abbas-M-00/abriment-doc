@@ -1,5 +1,5 @@
 ---
-slug: /paas/servicecatalog/Hazelcast
+slug: /paas/servicecatalog/hazelcast
 sidebar_position: 24
 ---
 

@@ -1,5 +1,5 @@
 ---
-slug: /paas/servicecatalog/Redis
+slug: /paas/servicecatalog/redis
 sidebar_position: 4
 ---
 ## Redis

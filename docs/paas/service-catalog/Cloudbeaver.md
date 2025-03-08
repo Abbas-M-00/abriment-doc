@@ -1,5 +1,5 @@
 ---
-slug: /paas/servicecatalog/Cloudbeaver
+slug: /paas/servicecatalog/cloudbeaver
 sidebar_position: 26
 ---
 

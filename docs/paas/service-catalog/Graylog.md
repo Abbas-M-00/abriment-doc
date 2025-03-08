@@ -1,5 +1,5 @@
 ---
-slug: /paas/servicecatalog/Graylog
+slug: /paas/servicecatalog/graylog
 sidebar_position: 16
 ---
 
